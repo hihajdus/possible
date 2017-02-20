@@ -1,0 +1,82 @@
+body {
+
+}
+
+// -- HEADER --
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: flex-end;
+    padding: 0 20px 10px 20px;
+}
+
+.navigation {
+    //display: list-item;
+
+    font-size: 8px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        color: white;
+        padding: 10px 20px;
+
+    }
+
+}
+
+// - COMPANY
+
+#company {
+    background-color: white;
+}
+
+#company-margin {
+    margin: 0 10px;
+}
+
+section {
+
+    h1, h4, p {
+        padding: 10px 5px 5px 5px;
+    }
+
+}
+
+#sidebar {
+    h4, p {
+        padding: 10px 5px 5px 5px;
+    }
+}
+#slide-name {
+    font-weight: bold;
+}
+
+#text-possible {
+    font-weight: bold;
+}
+
+#text-team {
+    font-weight: bold;
+}
+#text-map {
+    font-weight: bold;
+}
+// -- FOOTER --
+
+.footer {
+    //display: flex;
+    height: 30px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 8px;
+    ul {
+        display: flex;
+        justify-content: space-around;
+        align-self: center;
+    }
+}

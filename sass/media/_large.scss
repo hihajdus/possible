@@ -1,5 +1,37 @@
 $large: "(min-width: 768px) and (max-width: 1023px)";
 
 @media #{$large} {
-    
+    // -- HEADER
+        .head {
+            padding: 0 60px 10px 60px;
+        }
+        .navigation {
+        font-size: 12px;
+            ul {
+                padding: 10px 15px;
+            }
+        }
+
+    // -- COMPANY
+    #company-margin {
+            padding: 0 40px;
+        }
+    section {
+
+        h1, h4, p {
+            padding: 15px 10px 10px 10px;
+        }
+    }
+
+    #sidebar {
+        h4, p {
+            padding: 15px 10px 10px 10px;
+        }
+    }
+    // -- FOOTER
+
+    .footer {
+        padding: 10px 60px 10px 60px;
+        font-size: 12px;
+    }
 }

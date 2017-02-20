@@ -1,5 +1,31 @@
 $medium: "(min-width: 480px) and (max-width: 767px)";
 
 @media #{$medium} {
+
+// -- HEADER
+    .head {
+        padding: 0 40px 10px 40px;
+    }
+
     
+// -- COMPANY
+
+    #company {
+        width: 100%;
+    }
+
+    #company-margin {
+        padding: 0 20px ;
+    }
+
+    #sidebar {
+        width: 100%;
+    }
+
 }
+
+// -- FOOTER
+
+    .footer {
+        padding: 10px 40px 10px 40px;
+    }
