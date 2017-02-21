@@ -12,10 +12,18 @@ body {
     color: white;
     align-items: flex-end;
     padding: 0 20px 10px 20px;
+
+    background-image: url('../image/head-black.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navigation {
     //display: list-item;
+
+    background-image: url('../image/background-gray.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 
     font-size: 8px;
     ul {
@@ -23,9 +31,7 @@ body {
         justify-content: space-around;
         color: white;
         padding: 10px 20px;
-
     }
-
 }
 
 // - COMPANY
@@ -35,7 +41,11 @@ body {
 }
 
 #company-margin {
-    margin: 0 10px;
+    //margin: 0 10px;
+
+    background-image: url('../image/background-gray.png');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 section {
@@ -65,6 +75,27 @@ section {
 #text-map {
     font-weight: bold;
 }
+
+#slide-big {
+    background-image: url('../image/big-image.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+}
+
+#image-map {
+    background-image: url('../image/mapa.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+
+}
+
+
+
+
 // -- FOOTER --
 
 .footer {
