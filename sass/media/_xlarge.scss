@@ -41,6 +41,16 @@ $xlarge: "(min-width: 1024px)";
     .footer {
         padding: 10px 70px 10px 70px;
         font-size: 12px;
+        ul {
+            li {
+                i{
+                    visibility: hidden;
+                }
+                span {
+                    visibility: visible;
+                }
+            }
+        }
     }
 
 
