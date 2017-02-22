@@ -80,20 +80,30 @@ section {
     background-image: url('../image/big-image.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 400px;
-    height: 200px;
+    width: 100vw;
+    height: 430px;
+    margin: 0px 20px;
+}
+
+#slide-big-container {
+    display: flex;
+    justify-content: center;
 }
 
 #image-map {
     background-image: url('../image/mapa.jpg');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 300px;
+    width: 50vh;
     height: 200px;
+    margin: 20px;
 
 }
 
-
+#image-map-container {
+    display: flex;
+    justify-content: center;
+}
 
 
 // -- FOOTER --

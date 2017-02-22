@@ -7,7 +7,7 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
         padding: 0 40px 10px 40px;
     }
 
-    
+
 // -- COMPANY
 
     #company {
@@ -22,6 +22,8 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
         width: 100%;
     }
 
+#sidebar-container {
+    height: 900px;
 }
 
 // -- FOOTER
@@ -29,3 +31,5 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
     .footer {
         padding: 10px 40px 10px 40px;
     }
+
+}
