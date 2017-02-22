@@ -1,40 +1,69 @@
 $large: "(min-width: 768px) and (max-width: 1023px)";
 
 @media #{$large} {
+
     // -- HEADER
-        .head {
-            padding: 0 60px 10px 60px;
+    .head {
+        padding: 0 60px 10px 60px;
+        height: 60px;
+        #logo {
+            width: 110px;
+            height: 20px;
         }
-        .navigation {
-        font-size: 12px;
-            ul {
-                padding: 10px 15px;
+    }
+    .navigation {
+        ul {
+            padding: 15px 0px;
+            a{
+                font-size: 12px;
             }
         }
+    }
+    .button {
+        :hover {
+            padding: 10px 20px;
+        }
+    }
 
     // -- COMPANY
+    #company {
+        height: 90vw;
+    }
+
     #company-margin {
             padding: 0 40px;
-        }
+    }
     section {
-
-        h1, h4, p {
-            padding: 15px 10px 10px 10px;
+        p {
+            padding: 15px 25px;
         }
     }
-
     #sidebar {
-        h4, p {
-            padding: 15px 10px 10px 10px;
+        p {
+            padding: 15px 25px;
         }
+        height: 90vw;
     }
-    // -- FOOTER
+    #slide-big {
+        margin: 0px 25px;
+        height: 30vw;
+    }
+    #slides {
+        margin: 0px 25px;
+    }
+    #image-map {
+        margin: 0px 25px;
+        height: 15vw;
+    }
 
+    // -- FOOTER
     .footer {
-        padding: 10px 60px 10px 60px;
-        font-size: 12px;
+        padding: 10px 35px;
+        font-size: 11px;
         ul {
             li {
+                text-align: center;
+                width: 20%;
                 i{
                     visibility: hidden;
                 }

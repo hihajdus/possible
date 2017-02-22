@@ -6,6 +6,14 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
     .head {
         padding: 0 40px 10px 40px;
     }
+    .navigation {
+        ul {
+            padding: 10px 0px;
+            a {
+                font-size: 8px;
+            }
+        }
+    }
 
 
 // -- COMPANY
@@ -22,14 +30,15 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
         width: 100%;
     }
 
-#sidebar-container {
-    height: 900px;
-}
+    #sidebar-container {
+        //height: 900px;
+    }
 
 // -- FOOTER
 
-    .footer {
-        padding: 10px 40px 10px 40px;
-    }
+        .footer {
+            padding: 10px 40px;
+            font-size: 12px;
+        }
 
 }

@@ -1,48 +1,67 @@
 $xlarge: "(min-width: 1024px)";
 
 @media #{$xlarge} {
+
     // -- HEADER
-        .head {
-            padding: 0 80px 10px 80px;
+    .head {
+        padding: 0 80px 10px 80px;
+        height: 65px;
+        #logo {
+            width: 125px;
+            height: 25px;
         }
-        .navigation {
-        font-size: 12px;
-            ul {
-                padding: 15px 0px;
+    }
+    .navigation {
+        ul {
+            padding: 15px 0px;
+            a {
+                font-size: 12px;
             }
         }
-
-    // - COMPANY
-    #company-margin {
-            padding: 0 60px;
-        }
-    section {
-        h1 {
-            padding: 40px 10px 10px 0px;
-        }
-        h4 {
-            padding: 20px 20px 15px 0px;
-        }
-        p {
+    }
+    .button {
+        :hover {
             padding: 10px 20px;
         }
     }
 
-    #sidebar {
-        h4 {
-            padding: 80px 5px 5px 0px;
-        }
+    // - COMPANY
+    #company {
+        height: 90vw;
+    }
+    #company-margin {
+            padding: 0px 80px;
+    }
+    section {
         p {
-            padding: 20px 15px 15px 15px;
+            padding: 10px 25px;
         }
     }
-    // -- FOOTER
+    #sidebar {
+        p {
+            padding: 15px 25px;
+        }
+        height: 90vw;
+    }
+    #slide-big {
+        margin: 0px 25px;
+        height: 30vw;
+    }
+    #slides {
+        margin: 0px 25px;
+    }
+    #image-map {
+        margin: 0px 25px;
+        height: 15vw;
+    }
 
+    // -- FOOTER
     .footer {
-        padding: 10px 70px 10px 70px;
+        padding: 10px 60px;
         font-size: 12px;
         ul {
             li {
+                width: 20%;
                 i{
                     visibility: hidden;
                 }

@@ -2,10 +2,6 @@ $small: "(max-width: 479px)";
 
 @media #{$small} {
 
-// - HEADER
-
-
-
 // - COMPANY
 
     #company {
@@ -14,10 +10,4 @@ $small: "(max-width: 479px)";
     #sidebar {
         width: 100%;
     }
-}
-
-// -- FOOTER
-
-.footer {
-
 }
