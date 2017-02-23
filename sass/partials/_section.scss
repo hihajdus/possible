@@ -89,13 +89,14 @@ section {
 #slide-big-container {
     display: flex;
     justify-content: center;
+
+    //position: relative;
 }
 #slides {
     margin: 0px 10px;
     //display: flex;
     //justify-content: center;
-    //width: 100%;
-    //min-width: 20vw;
+
 }
 #image-map {
     background-image: url('../image/mapa.jpg');
@@ -113,42 +114,38 @@ section {
 /* Slider */
 
 #slider {
-    position: relative;
-    padding-top: 120px;
-    img {
-        position: absolute;
-        //left: 0; top: 0;
-    }
-}
 
-#slides {
-    position: relative;
-    img {
-        position: absolute;
-        left: 0; top: 0;
-    }
     input[name='slide_switch'] {
         display: none;
+            img {
+                opacity: 0;
+                transform: scale(1.1);
+            }
     }
     label {
         margin: 18px 18px 0 0;
 	    border: 3px solid #999;
-        float: left;
+        //float: left;
         cursor: pointer;
-        img {
-            display: block;
-        }
+        opacity: 0.6;
+            :checked {
+                border-color: #666;
+                opacity: 1;
+           }
     }
 }
 
 .image-small {
     width: 10vw;
     height: 6vw;
+    position: absolute;
+    display: block;
 }
 
 .image-big {
     width: 52vw;
     height: 30vw;
+    position: absolute;
 }
 
 .slide-image-1 {
