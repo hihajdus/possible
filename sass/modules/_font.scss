@@ -1,17 +1,55 @@
 @font-face {
 
+}
 
+#data {
+    font-family: arial;
+    font-size: 10px;
+}
+
+.button {
+    a {
+        font-family: arial;
+    }
+}
+
+#text-possible {
+    font-weight: bold;
+    font-size: 24px;
+    font-family: verdana;
+}
+
+.text-company {
+    font-family: arial;
+}
+
+#text-team {
+    font-weight: bold;
+    font-family: verdana;
 }
 
 #slide-name {
     font-weight: bold;
+    font-family: verdana;
 }
-#text-possible {
-    font-weight: bold;
+
+#slide-information {
+    font-family: verdana;
 }
-#text-team {
-    font-weight: bold;
-}
+
 #text-map {
     font-weight: bold;
+    font-family: verdana;
+    color: blue;
+}
+
+#text-map-description {
+    font-family: verdana;
+    color: blue;
+}
+
+.footer {
+    span {
+        font-family: tahoma;
+    }
 }

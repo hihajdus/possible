@@ -138,7 +138,7 @@ section {
 .image-small {
     width: 10vw;
     height: 6vw;
-    position: absolute;
+    //position: absolute;
     display: block;
 }
 
@@ -146,6 +146,11 @@ section {
     width: 52vw;
     height: 30vw;
     position: absolute;
+}
+
+/* TURN OFF CSS SLIDER */
+#slider {
+    visibility: hidden;
 }
 
 .slide-image-1 {
