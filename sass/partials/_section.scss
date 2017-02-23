@@ -3,19 +3,19 @@ body {
 }
 
 // -- HEADER --
-
 .head {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: black;
     color: white;
     align-items: flex-end;
     padding: 0 20px 10px 20px;
-
     background-image: url('../image/head-black.png');
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0 8px 6px -6px black;
+
+
     #logo {
         background-image: url('../image/logo.png');
         background-size: contain;
@@ -24,15 +24,11 @@ body {
         height: 15px;
     }
 }
-
 .navigation {
-
-
     background-image: url('../image/background-gray.png');
     background-size: cover;
     background-repeat: no-repeat;
-
-
+    box-shadow: inset 0px 24px 32px -4px rgba(0,0,0,0.5);
     ul {
         display: flex;
         justify-content: space-around;
@@ -43,7 +39,6 @@ body {
         }
     }
 }
-
 .button {
     text-decoration: none;
     border: none;
@@ -61,52 +56,27 @@ body {
     }
 }
 
-
 // - COMPANY
-
 #company {
     background-color: white;
 }
-
 #company-margin {
     //margin: 0 10px;
-
     background-image: url('../image/background-gray.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 section {
-
     p {
         padding: 10px;
     }
-
 }
-
 #sidebar {
     p {
         padding: 10px;
     }
 }
-
-#slide-name {
-    font-weight: bold;
-}
-
-#text-possible {
-    font-weight: bold;
-}
-
-#text-team {
-    font-weight: bold;
-}
-#text-map {
-    font-weight: bold;
-}
-
-
-
+/*
 #slide-big {
     background-image: url('../image/big-image.jpg');
     background-size: contain;
@@ -114,14 +84,12 @@ section {
     width: 100vw;
     height: 50vw;
     margin: 0px 10px;
-
 }
-
+*/
 #slide-big-container {
     display: flex;
     justify-content: center;
 }
-
 #slides {
     margin: 0px 10px;
     //display: flex;
@@ -129,7 +97,6 @@ section {
     //width: 100%;
     //min-width: 20vw;
 }
-
 #image-map {
     background-image: url('../image/mapa.jpg');
     background-size: contain;
@@ -138,17 +105,117 @@ section {
     height: 40vw;
     margin: 0px 10px;
 }
-
 #image-map-container {
     display: flex;
     justify-content: center;
 }
 
+/* Slider */
+
+#slider {
+    position: relative;
+    padding-top: 120px;
+    img {
+        position: absolute;
+        //left: 0; top: 0;
+    }
+}
+
+#slides {
+    position: relative;
+    img {
+        position: absolute;
+        left: 0; top: 0;
+    }
+    input[name='slide_switch'] {
+        display: none;
+    }
+    label {
+        margin: 18px 18px 0 0;
+	    border: 3px solid #999;
+        float: left;
+        cursor: pointer;
+        img {
+            display: block;
+        }
+    }
+}
+
+.image-small {
+    width: 10vw;
+    height: 6vw;
+}
+
+.image-big {
+    width: 52vw;
+    height: 30vw;
+}
+
+.slide-image-1 {
+    background-image: url('../image/gallery/Amanreet Bajwa.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-2 {
+    background-image: url('../image/gallery/Daniel-Chu-POSSIBLE-Chief-Creative-Officer.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-3 {
+    background-image: url('../image/gallery/Danielle_-Reubenstein.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-4 {
+    background-image: url('../image/gallery/Diane-holland-possible-cfo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-5 {
+    background-image: url('../image/gallery/john_cunningham.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-6 {
+    background-image: url('../image/gallery/Kelsey.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-7 {
+    background-image: url('../image/gallery/PeiPei.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-8 {
+    background-image: url('../image/gallery/SEA_Danielle_Trivisonno.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-9 {
+    background-image: url('../image/gallery/SEABrandonGeary.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+.slide-image-10 {
+    background-image: url('../image/gallery/shane-atchison-possible-ceo-1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    content: "";
+}
+
+
 
 // -- FOOTER --
-
 .footer {
-
     height: 30px;
     background-color: black;
     color: white;
@@ -160,7 +227,6 @@ section {
         align-self: center;
         li {
             width: 10%;
-            text-align: center;
             i {
                 :hover {
                     color: blue;
