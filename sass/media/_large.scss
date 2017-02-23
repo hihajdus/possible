@@ -39,10 +39,13 @@ $large: "(min-width: 768px) and (max-width: 1023px)";
         }
     }
     #sidebar {
-        p {
+        #text-map-description {
             padding: 15px 25px;
         }
         height: 90vw;
+    }
+    #sidebar-container {
+        margin-top: 100px;
     }
     #slide-big {
         margin: 0px 25px;
@@ -55,6 +58,29 @@ $large: "(min-width: 768px) and (max-width: 1023px)";
         margin: 0px 25px;
         height: 15vw;
     }
+    #text-possible {
+        padding-top: 50px;
+        font-size: 24px;
+    }
+    .text-company {
+        font-size: 14px;
+    }
+    #text-team {
+        font-size: 12px;
+    }
+    #text-map {
+        font-size: 12px;
+        width: 60%;
+        margin-left: 25px;
+        text-align: left;
+    }
+    #text-map-description {
+        font-size: 12px;
+    }
+    #data {
+        font-size: 12px;
+    }
+
 
     // -- FOOTER
     .footer {

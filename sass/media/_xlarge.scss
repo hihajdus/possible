@@ -38,10 +38,13 @@ $xlarge: "(min-width: 1024px)";
         }
     }
     #sidebar {
-        p {
+        #text-map-description {
             padding: 15px 25px;
         }
         height: 90vw;
+    }
+    #sidebar-container {
+        margin-top: 100px;
     }
     #slide-big {
         margin: 0px 25px;
@@ -54,6 +57,32 @@ $xlarge: "(min-width: 1024px)";
         margin: 0px 25px;
         height: 15vw;
     }
+
+    #text-possible {
+        padding-top: 50px;
+        font-size: 26px;
+    }
+    .text-company {
+        font-size: 16px;
+    }
+    #text-team {
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    #text-map {
+        font-size: 14px;
+        width: 60%;
+        margin-left: 25px;
+        text-align: left;
+    }
+    #text-map-description {
+        font-size: 12px;
+    }
+    #data {
+        font-size: 12px;
+    }
+
+
 
     // -- FOOTER
     .footer {
