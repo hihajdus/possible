@@ -52,6 +52,25 @@ $medium: "(min-width: 480px) and (max-width: 767px)";
         font-size: 14px;
     }
 
+/* slider */
+
+#slider {
+    width: 78vw;
+    height: 44vw;
+    padding-top: 46vw;
+}
+#slide-container {
+    padding-bottom: 140px;
+}
+.image-small {
+    width: 13vw;
+    height: 9vw;
+}
+.image-big {
+    width: 78vw;
+    height: 44vw;
+}
+
 // -- FOOTER
 
         .footer {

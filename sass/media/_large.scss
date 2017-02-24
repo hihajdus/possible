@@ -47,13 +47,7 @@ $large: "(min-width: 768px) and (max-width: 1023px)";
     #sidebar-container {
         margin-top: 100px;
     }
-    #slide-big {
-        margin: 0px 25px;
-        height: 30vw;
-    }
-    #slides {
-        margin: 0px 25px;
-    }
+
     #image-map {
         margin: 0px 25px;
         height: 15vw;
@@ -79,6 +73,25 @@ $large: "(min-width: 768px) and (max-width: 1023px)";
     }
     #data {
         font-size: 12px;
+    }
+
+    /* slider */
+
+    #slider {
+        width: 50vw;
+        height: 28vw;
+        padding-top: 29vw;
+    }
+    #slide-container {
+        padding-bottom: 60px;
+    }
+    .image-small {
+        width: 9vw;
+        height: 5vw;
+    }
+    .image-big {
+        width: 50vw;
+        height: 28vw;
     }
 
 
