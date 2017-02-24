@@ -81,28 +81,11 @@ section {
     }
     background-color: #F3E9F1;
 }
-/*
-#slide-big {
-    background-image: url('../image/big-image.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 50vw;
-    margin: 0px 10px;
+
+#sidebar-container {
+    margin: 20px 0px;
 }
 
-#slide-big-container {
-    display: flex;
-    justify-content: center;
-
-    //position: relative;
-}
-#slides {
-    margin: 0px 10px;
-    //display: flex;
-    //justify-content: center;
-}
-*/
 
 #image-map {
     background-image: url('../image/mapa.jpg');
@@ -111,54 +94,13 @@ section {
     width: 70vw;
     height: 40vw;
     margin: 0px 10px;
+    text-indent:-9999px;
 }
 #image-map-container {
     display: flex;
     justify-content: center;
 }
 
-/* Slider css */
-
-/*
-#slider {
-    input[name='slide_switch'] {
-        display: none;
-            img {
-                opacity: 0;
-                transform: scale(1.1);
-            }
-    }
-    label {
-        margin: 18px 18px 0 0;
-	    border: 3px solid #999;
-        //float: left;
-        cursor: pointer;
-        opacity: 0.6;
-            :checked {
-                border-color: #666;
-                opacity: 1;
-           }
-    }
-}
-
-.image-small {
-    width: 10vw;
-    height: 6vw;
-    //position: absolute;
-    display: block;
-}
-
-.image-big {
-    width: 52vw;
-    height: 30vw;
-    position: absolute;
-}
-*/
-
-/* TURN OFF CSS SLIDER */
-#slider {
-    visibility: hidden;
-}
 
 .slide-image-1 {
     background-image: url('../image/gallery/Amanreet Bajwa.png');
@@ -238,6 +180,7 @@ section {
 #text-map-description {
     font-size: 10px;
 }
+
 
 
 // -- FOOTER --

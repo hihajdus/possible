@@ -1,0 +1,57 @@
+/* Slider css */
+
+
+.image-small {
+    width: 10vw;
+    height: 6vw;
+}
+.image-big {
+    width: 52vw;
+    height: 30vw;
+}
+
+#slide-container {
+    display: flex;
+    justify-content: center;
+}
+
+#slider {
+    width: 52vw;
+    height: 30vw;
+    position: relative;
+    margin: 0 auto;
+    background-color: blue;
+    &>img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+    label {
+        opacity: 0.6;
+        outline: 3px solid #999;
+        float: left;
+        img {
+            display: block;
+        }
+        cursor: pointer;
+        //margin-left: 30px;
+    }
+    padding-top: 330px;
+    input[type="radio"]{
+        display: none;
+    }
+    //text-align: center;
+    input[type='radio']~img{
+        opacity: 0;
+    }
+    input[type='radio']:checked+label{
+        opacity: 1;
+        outline-color: #666;
+    }
+    input[type='radio']:checked+label+img{
+        opacity: 1;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
